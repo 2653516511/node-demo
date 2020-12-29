@@ -1,5 +1,6 @@
 var express = require('express')
 var path = require('path')
+// 解析post请求的参数
 var bodyParser = require('body-parser')
 
 // 引入自己的模块

@@ -16,6 +16,6 @@
     "express-art-template": "^1.0.1",
     "jquery": "^3.5.1",
     "mongoose": "^5.10.9",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.6"
   }
 }
