@@ -22,6 +22,12 @@ app.use(bodyParser.json())
 app.use(login)
 app.use(register)
 
+// 配置一个处理404的中间件
+app.use((req, res) => {
+    // 如果前面没有任何中间件能匹配,就匹配这个中间件
+    res.render('404.html')
+  })
+
 app.listen(5000, () => {
     console.log('express is running...');
 })
