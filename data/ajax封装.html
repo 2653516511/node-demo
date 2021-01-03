@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        function get (url, callback) {
+            var oq = new XMLHttpRequest()
+            // 请求加载成功后,调用指定的函数
+            oq.onload = function() {
+                console.log(oq.responseText);
+                callback(oq.responseText)
+            }
+            oq.open('get', url, true)
+            oq.send()
+        }       
+        
+        get('data.json', (data) => {
+            console.log(data);
+        })
+
+    </script>
+
+</body>
+</html>

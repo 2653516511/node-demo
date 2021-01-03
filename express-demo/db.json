@@ -1,0 +1,53 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "cfo",
+            "gender": 0,
+            "age": 9,
+            "hobbies": "ead"
+        },
+        {
+            "id": 2,
+            "name": "n2",
+            "gender": 1,
+            "age": 11,
+            "hobbies": "ead"
+        },
+        {
+            "id": 3,
+            "name": "n3",
+            "gender": 0,
+            "age": 21,
+            "hobbies": "ead"
+        },
+        {
+            "id": 4,
+            "name": "n4",
+            "gender": 0,
+            "age": 31,
+            "hobbies": "ead"
+        },
+        {
+            "name": "qqqq",
+            "gender": "0",
+            "age": "1",
+            "hobbies": "qq",
+            "id": 5
+        },
+        {
+            "name": "qwwww",
+            "gender": "0",
+            "age": "1",
+            "hobbies": "qqqqqq",
+            "id": 6
+        },
+        {
+            "name": "qazxsw",
+            "gender": "0",
+            "age": "1",
+            "hobbies": "qwedsa",
+            "id": 7
+        }
+    ]
+}
